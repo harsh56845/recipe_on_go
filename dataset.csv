@@ -1,0 +1,161 @@
+ingredients,dish
+aloo butter ghee ginger gobi turmeric,aloo_gobi
+aloo ginger matar oil onion turmeric,aloo_matar
+besan bhindi coriander ginger tomato,bhindi_masala
+aloo chili ginger kasuri_methi palak,aloo_palak
+coriander ginger gobi wheat_flour,gobi_paratha
+cumin garam_masala lauki tomato,lauki_sabzi
+amchur baingan garam_masala tomato,baingan_bharta
+butter ginger kasuri_methi oil palak paneer,palak_paneer
+chili curry_leaves oil rice urad_dal,idli
+coriander garam_masala onion paneer tomato,paneer_butter_masala
+cream ginger paneer tomato turmeric,paneer_tikka_masala
+cumin ghee ginger matar paneer tomato turmeric,matar_paneer
+chicken kasuri_methi oil onion,chicken_curry
+butter garlic mushroom onion turmeric,mushroom_masala
+butter cashew chicken cumin ginger tomato turmeric,butter_chicken
+chicken cream cumin tomato,chicken_tikka_masala
+asafoetida besan lemon sugar turmeric yogurt,dhokla
+basmati_rice chicken garam_masala garlic mint rice yogurt,chicken_biryani
+chili garam_masala mutton tomato,mutton_curry
+basmati_rice bay_leaf mint mutton onion yogurt,mutton_biryani
+garlic ghee mustard_seeds oil toor_dal,dal_tadka
+chili ginger kasuri_methi rajma tomato urad_dal,dal_makhani
+cumin garlic masoor_dal onion tomato turmeric,masoor_dal
+chili ghee moong_dal,moong_dal
+butter capsicum egg garam_masala tomato,anda_bhurji
+basmati_rice cumin garlic oil,vegetable_pulao
+basmati_rice chicken cumin ghee yogurt,chicken_pulao
+cumin moong_dal oil rice,khichdi
+egg garlic ginger pepper rice soy_sauce,egg_fried_rice
+beans carrot corn garlic peas turmeric,mixed_vegetable
+aloo garlic ginger spinach turmeric,saag_aloo
+egg oil turmeric,egg_curry
+chili mustard_seeds oil peanut poha potato,poha
+asafoetida cashew ghee mustard_seeds onion semolina,upma
+chickpea cumin garlic maida,chole_bhature
+chili egg onion,omelette
+ginger maggi_noodles masala onion pepper,maggi
+aloo bread butter coriander cumin onion,aloo_sandwich
+bread butter chaat_masala cheese chili cucumber,vegetable_sandwich
+aloo amchur maida onion,samosa
+butter garam_masala ghee ginger paneer wheat_flour,paneer_paratha
+ajwain besan onion turmeric,pakora
+mustard_seeds oil rice urad_dal,dosa
+butter capsicum chili cumin garlic pav potato,pav_bhaji
+aloo besan chili curry_leaves ginger pav,vada_pav
+ajwain aloo butter chili ghee onion wheat_flour,aloo_paratha
+asafoetida coriander cumin ginger maida moong_dal oil,kachori
+ajwain butter methi oil turmeric wheat_flour yogurt,methi_paratha
+besan curry_leaves fenugreek_seeds ginger yogurt,kadhi_pakora
+almond cardamom ghee semolina sugar,halwa
+almond cardamom cashew milk raisin rice sugar,kheer
+cardamom ghee khoya maida sugar,gulab_jamun
+chana_masala_powder chickpea coriander ginger onion,chana_masala
+boondi chaat_masala cumin yogurt,raita
+cumin garam_masala garlic oil onion toor_dal,dal_fry
+chili fish ginger mustard_seeds oil onion,fish_curry
+cumin garam_masala ginger prawn,prawn_masala
+aloo amchur besan chaat_masala oil onion,aloo_tikki
+chicken cumin garam_masala garlic onion,korma
+cashew cream garlic paneer saffron yogurt,shahi_paneer
+aloo bhindi coriander ginger,aloo_bhindi
+cumin ghee moong_dal oil,tarka_dal
+butter cream cumin onion tomato,tomato_soup
+coriander cumin ginger paneer,paneer_bhurji
+aloo coriander garlic methi onion,aloo_methi
+basmati_rice garam_masala ginger mint saffron yogurt,vegetable_biryani
+aloo asafoetida ginger mustard_seeds oil yogurt,dahi_aloo
+garlic green_chilli oil onion potato,aloo_fry
+green_chilli oil potato tomato turmeric,aloo_fry
+green_chilli mustard_oil oil onion potato turmeric,aloo_fry
+ginger green_chilli oil potato,aloo_fry
+butter oil potato turmeric,aloo_fry
+oil potato salt,aloo_fry
+cumin garlic oil potato spices turmeric,aloo_fry
+butter green_chilli oil potato,aloo_fry
+mustard_oil oil potato salt spices,aloo_fry
+green_chilli oil potato salt,aloo_fry
+garlic ginger oil potato salt,aloo_fry
+butter oil potato salt turmeric,aloo_fry
+butter green_chilli oil onion potato spices,aloo_sabzi
+oil onion potato salt spices,aloo_sabzi
+oil potato spices tomato,aloo_sabzi
+mustard_oil oil onion potato spices,aloo_sabzi
+cumin oil potato spices tomato turmeric,aloo_sabzi
+garlic oil potato spices tomato,aloo_sabzi
+mustard_oil oil potato salt spices tomato,aloo_sabzi
+butter garlic oil onion potato spices,aloo_sabzi
+ginger green_chilli oil onion potato spices,aloo_sabzi
+oil potato salt spices tomato,aloo_sabzi
+green_chilli oil onion potato spices turmeric,aloo_sabzi
+boiled_potato mustard_oil oil salt,aloo_chokha
+boiled_potato mustard_oil salt turmeric,aloo_chokha
+cumin green_chilli mustard_oil potato,aloo_chokha
+garlic green_chilli mustard_oil potato salt,aloo_chokha
+green_chilli mustard_oil potato tomato,aloo_chokha
+green_chilli mustard_oil oil potato,aloo_chokha
+butter ginger green_chilli mustard_oil potato turmeric,aloo_chokha
+boiled_potato garlic mustard_oil onion salt turmeric,aloo_chokha
+boiled_potato mustard_oil onion salt spices,aloo_chokha
+boiled_potato cumin mustard_oil onion salt,aloo_chokha
+lentil rice salt,khichdi
+green_chilli lentil rice spices turmeric,khichdi
+ginger lentil mustard_oil rice salt,khichdi
+garlic lentil mustard_oil rice salt turmeric,khichdi
+lentil rice spices tomato turmeric,khichdi
+green_chilli lentil onion rice salt,khichdi
+butter lentil oil rice turmeric,khichdi
+lentil mustard_oil onion rice turmeric,khichdi
+garlic ginger lentil rice spices turmeric,khichdi
+butter lentil mustard_oil rice salt,khichdi
+rice soy_sauce vegetables,fried_rice
+garlic green_chilli rice soy_sauce vegetables,fried_rice
+egg rice soy_sauce turmeric,fried_rice
+mustard_oil onion rice soy_sauce vegetables,fried_rice
+butter egg ginger rice soy_sauce,fried_rice
+egg onion rice soy_sauce,fried_rice
+green_chilli oil rice salt soy_sauce vegetables,fried_rice
+mustard_oil rice soy_sauce turmeric vegetables,fried_rice
+garlic rice soy_sauce tomato vegetables,fried_rice
+egg rice soy_sauce spices tomato,fried_rice
+cumin ginger rice salt water,plain_rice
+rice spices water,plain_rice
+rice salt spices turmeric water,plain_rice
+oil rice turmeric water,plain_rice
+garlic onion rice salt spices water,plain_rice
+ginger mustard_oil rice water,plain_rice
+butter oil rice salt water,plain_rice
+garlic ginger rice turmeric water,plain_rice
+mustard_oil onion rice salt tomato water,plain_rice
+green_chilli onion rice salt water,plain_rice
+cumin garlic lentil,dal_tadka
+lentil onion salt spices,dal_tadka
+butter cumin garlic lentil oil turmeric,dal_tadka
+cumin garlic lentil mustard_oil,dal_tadka
+green_chilli lentil mustard_oil onion spices tomato,dal_tadka
+ginger lentil onion spices,dal_tadka
+cumin garlic lentil mustard_oil oil spices,dal_tadka
+butter lentil oil onion spices tomato,dal_tadka
+cumin garlic ginger lentil onion salt,dal_tadka
+ginger green_chilli lentil onion spices turmeric,dal_tadka
+water wheat_flour,roti
+onion water wheat_flour,roti
+salt water wheat_flour,roti
+garlic salt turmeric water wheat_flour,roti
+cumin ginger onion water wheat_flour,roti
+butter tomato water wheat_flour,roti
+mustard_oil salt water wheat_flour,roti
+green_chilli onion salt spices water wheat_flour,roti
+garlic mustard_oil salt tomato water wheat_flour,roti
+ginger spices tomato water wheat_flour,roti
+ginger oil salt semolina water,upma
+green_chilli salt semolina water,upma
+semolina spices vegetables,upma
+green_chilli salt semolina tomato water,upma
+garlic onion semolina spices vegetables,upma
+butter mustard_oil semolina spices turmeric vegetables,upma
+cumin garlic salt semolina spices water,upma
+onion semolina spices turmeric vegetables,upma
+ginger green_chilli semolina spices turmeric vegetables,upma
+mustard_oil onion semolina spices vegetables,upma
