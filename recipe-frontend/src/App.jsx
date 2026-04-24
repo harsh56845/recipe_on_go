@@ -53,8 +53,11 @@ function App() {
   const [historyData, setHistoryData] = useState([]);
 
   const fetchHistory = async () => {
+    const API_URL = import.meta.env.VITE_API_URL;
     try {
-      const res = await axios.get("http://127.0.0.1:8000/history");
+      
+      const res = await axios.get(`${API_URL}/history`)
+      //  axios.get("http://127.0.0.1:8000/history");
       setHistoryData(res.data);
     } catch (err) {
       console.error("Error fetching history:", err);

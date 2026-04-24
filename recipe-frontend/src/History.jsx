@@ -223,7 +223,10 @@ function History() {
   const fetchHistory = async () => {
     try {
       setLoading(true);
-      const res = await axios.get("http://127.0.0.1:8000/history");
+      const API_URL = import.meta.env.VITE_API_URL;
+
+const res = await axios.get(`${API_URL}/history`);
+      // const res = await axios.get("http://127.0.0.1:8000/history");
       setHistory(res.data);
     } catch (err) {
       console.error("Error fetching history:", err);

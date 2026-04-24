@@ -23,10 +23,14 @@ function App() {
       setLoading(true);
       setError("");
       setData(null);
+const API_URL = import.meta.env.VITE_API_URL;
 
-      const res = await axios.post("http://127.0.0.1:8000/predict", {
-        ingredients: ingredients.join(" "),
-      });
+const res = await axios.post(`${API_URL}/predict`, {
+  ingredients: ingredients.join(" "),
+});
+      // const res = await axios.post("http://127.0.0.1:8000/predict", {
+      //   ingredients: ingredients.join(" "),
+      // });
 
       if (res.data.error) {
         setError(res.data.error);
@@ -47,9 +51,14 @@ function App() {
 
   const fetchRecipe = async (dish) => {
     try {
-      const res = await axios.post("http://127.0.0.1:8000/get-recipe", {
-        dish,
-      });
+      const API_URL = import.meta.env.VITE_API_URL;
+
+const res = await axios.post(`${API_URL}/get-recipe`, {
+  dish,
+});
+      // const res = await axios.post("http://127.0.0.1:8000/get-recipe", {
+      //   dish,
+      // });
 
       if (!res.data.error) {
         setRecipe(res.data);

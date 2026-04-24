@@ -38,6 +38,10 @@ function Home() {
 
   /* ================= 3. API LOGIC ================= */
   const handlePredict = async () => {
+    const API_URL = import.meta.env.VITE_API_URL;
+
+// axios.post(`${API_URL}/predict`)
+axios.get(`${API_URL}/history`)
     if (ingredients.length === 0) {
       setError("Please add some ingredients first.");
       return;
@@ -45,9 +49,14 @@ function Home() {
     try {
       setLoading(true);
       setError("");
-      const res = await axios.post("http://127.0.0.1:8000/predict", {
-        ingredients: ingredients.join(" "),
-      });
+      const API_URL = import.meta.env.VITE_API_URL;
+
+const res = await axios.post(`${API_URL}/predict`, {
+  ingredients: ingredients.join(" "),
+});
+      // const res = await axios.post("http://127.0.0.1:8000/predict", {
+      //   ingredients: ingredients.join(" "),
+      // });
       
       if (res.data.error) {
         setError(res.data.error);
@@ -65,7 +74,10 @@ function Home() {
   const fetchRecipe = async (dish) => {
     try {
       setRecipeLoading(true);
-      const res = await axios.post("http://127.0.0.1:8000/get-recipe", { dish });
+      const API_URL = import.meta.env.VITE_API_URL;
+
+const res = await axios.post(`${API_URL}/get-recipe`, { dish });
+      // const res = await axios.post("http://127.0.0.1:8000/get-recipe", { dish });
       if (!res.data.error) {
         setRecipe(res.data);
       } else {
