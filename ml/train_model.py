@@ -3,7 +3,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer # type: ignore
 from sklearn.model_selection import train_test_split # type: ignore
 from sklearn.linear_model import LogisticRegression # type: ignore
 import pickle
-df = pd.read_csv("/Users/harshvardhan/Downloads/Documents/Racipe-project/dataset.csv")
+df = pd.read_csv("dataset.csv")
 print(df.head())
 print(df.shape)
 
