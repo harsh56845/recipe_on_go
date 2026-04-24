@@ -19,6 +19,50 @@ A full-stack AI-powered recipe recommendation system that predicts dishes based 
 
 ---
 
+# 📸 Screenshots
+
+## 🏠 Home Page
+
+![Home](screenshots/1.jpeg)
+
+## 🔍 Dish Input & Search
+
+![Search](screenshots/2.jpeg)
+
+## 🍽️ Prediction Result
+
+![Result](screenshots/3.jpeg)
+
+## 📖 Recipe Details
+
+![Recipe](screenshots/4.jpeg)
+
+## 🕓 Search History
+
+![History](screenshots/5.jpeg)
+
+## 🎨 UI View
+
+![UI](screenshots/6.jpeg)
+
+---
+
+# 📊 Project Diagrams
+
+## 🧩 Class Diagram
+
+![Class Diagram](project_diagrams/class_diagram.png)
+
+## 🔄 Sequence Diagram
+
+![Sequence Diagram](project_diagrams/sequence_diagrame.png)
+
+## 🏗️ System Architecture
+
+![Architecture](project_diagrams/system_architecture_diagram.png)
+
+---
+
 # 🧠 Features
 
 * 🔍 Predict dish from ingredients using AI model
@@ -36,166 +80,63 @@ A full-stack AI-powered recipe recommendation system that predicts dishes based 
 Racipe-project/
 │
 ├── backend/
-│   ├── main.py
-│   ├── db.py
-│   ├── recipes.py
-│   ├── ml/
-│   ├── requirements.txt
-│   └── __init__.py
-│
 ├── recipe-frontend/
-│   ├── src/
-│   ├── public/
-│   ├── package.json
-│   └── vite.config.js
-│
-└── README.md
+├── project_diagrams/
+├── screenshots/
+├── README.md
 ```
 
 ---
 
 # ⚙️ Backend Setup (FastAPI)
 
-## 📌 1. Navigate to backend
-
 ```
 cd backend
-```
-
-## 📌 2. Create virtual environment
-
-```
 python -m venv venv
 source venv/bin/activate   # Mac/Linux
-venv\Scripts\activate      # Windows
-```
-
-## 📌 3. Install dependencies
-
-```
 pip install -r requirements.txt
-```
-
-## 📌 4. Run backend
-
-```
 uvicorn backend.main:app --reload
 ```
 
-## 📌 5. Open API docs
-
-* http://127.0.0.1:8000/docs
+👉 Open: http://127.0.0.1:8000/docs
 
 ---
 
-# 💾 Database
-
-* Uses **SQLite (recipes.db)**
-* Automatically created on startup
-* Stores user search history
-
----
-
-# 🎨 Frontend Setup (React + Vite)
-
-## 📌 1. Navigate to frontend
+# 🎨 Frontend Setup
 
 ```
 cd recipe-frontend
-```
-
-## 📌 2. Install dependencies
-
-```
 npm install
-```
-
-## 📌 3. Create `.env`
-
-```
-VITE_API_URL=http://127.0.0.1:8000
-```
-
-## 📌 4. Run frontend
-
-```
 npm run dev
 ```
 
-## 📌 5. Open app
-
-* http://localhost:5173
+👉 Open: http://localhost:5173
 
 ---
 
-# 🔗 Frontend ↔ Backend Connection
+# 🔗 Connect Frontend & Backend
 
-```js
-const API_URL = import.meta.env.VITE_API_URL;
+Create `.env` in frontend:
+
+```
+VITE_API_URL=http://127.0.0.1:8000
 ```
 
 ---
 
 # ☁️ Deployment
 
-## 🚀 Backend (Railway)
-
-1. Push code to GitHub
-2. Create project on Railway
-3. Deploy from GitHub repo
-4. Add Start Command:
+## Backend (Railway)
 
 ```
 uvicorn backend.main:app --host 0.0.0.0 --port $PORT
 ```
 
-5. Go to **Networking → Generate Domain**
-6. Use your live backend:
-
-```
-https://recipeongo-production.up.railway.app
-```
-
----
-
-## 🌐 Frontend (Vercel)
-
-1. Import project (`recipe-frontend`)
-2. Add environment variable:
+## Frontend (Vercel)
 
 ```
 VITE_API_URL=https://recipeongo-production.up.railway.app
 ```
-
-3. Deploy
-
----
-
-# 🧪 API Endpoints
-
-| Method | Endpoint    | Description          |
-| ------ | ----------- | -------------------- |
-| GET    | /           | Health check         |
-| POST   | /predict    | Predict dish         |
-| POST   | /get-recipe | Fetch recipe details |
-| GET    | /history    | View search history  |
-
----
-
-# ⚠️ Common Issues
-
-### ❌ Backend not connecting
-
-* Check `VITE_API_URL`
-
-### ❌ CORS error
-
-* Ensure CORS middleware enabled
-
-### ❌ Wrong Railway URL
-
-* Do NOT use `.railway.internal`
-* Always use `.up.railway.app`
 
 ---
 
@@ -205,7 +146,7 @@ VITE_API_URL=https://recipeongo-production.up.railway.app
 * Backend: FastAPI
 * Database: SQLite
 * Deployment: Vercel + Railway
-* AI/ML: Custom trained model (TF-IDF / ML pipeline)
+* AI/ML: TF-IDF / ML Model
 
 ---
 
@@ -225,26 +166,9 @@ To build an intelligent system that:
 * Understands user ingredients
 * Predicts relevant dishes
 * Provides complete cooking guidance
-* Enhances user experience with AI-based suggestions
-
----
-
-# 🔮 Future Enhancements
-
-* 🔐 User authentication system
-* 🌎 Multi-language support
-* 📱 Mobile responsive UI
-* 🤖 Advanced NLP model (BERT / Transformers)
-* 📊 Analytics dashboard
-
----
-
-# 📜 License
-
-This project is developed for academic purposes under MCA curriculum at HBTU.
 
 ---
 
 # ⭐ Support
 
-If you like this project, give it a ⭐ on GitHub and share your feedback!
+If you like this project, give it a ⭐ on GitHub!
