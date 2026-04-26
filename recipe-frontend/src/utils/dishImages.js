@@ -42,9 +42,15 @@ import gobi_paratha from "../assets/gobi_paratha.png";
 import baingan_bharta from "../assets/baingan_bharta.png";
 import idli from "../assets/idli.png";
 import matar_paneer from "../assets/matar_paneer.png";
+import raita from "../assets/raita.png";
+import kadhi_pakora from "../assets/kadhi_pakora.png";
+import dahi_aloo from "../assets/dahi_aloo.png";
 import default_img from "../assets/default.png";
 
 const dishImages = {
+  "kadhi pakora" : kadhi_pakora,
+  "raita" : raita,
+  "dahi aloo" : dahi_aloo,
   "matar paneer": matar_paneer,
   "idli": idli,
   "baingan bharta": baingan_bharta,
